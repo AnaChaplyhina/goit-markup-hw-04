@@ -133,6 +133,15 @@ text-decoration: none;
 }
 
 
+.contacts:hover {
+color: #404bbf;
+    text-decoration: none;
+}
+
+.contacts:focus {
+color: #404bbf;
+    text-decoration: none;
+}
 
 
 
@@ -161,24 +170,6 @@ text-decoration: none;
 
 }
 
-.contacts-mail, .contacts-tel {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    text-decoration: none;
-}
-
-.contacts-mail, .contacts-tel:hover {
-    color: #404bbf;
-    text-decoration: none;
-}
-
-.contacts-mail, .contacts-tel:focus {
-    color: #404bbf;
-    text-decoration: none;
-}
 
 .main-title-page {
     background: #2e2f42;
@@ -226,6 +217,7 @@ text-decoration: none;
     margin-left: auto;
     margin-right: auto;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin-top: 48px;
 
 }
 
@@ -303,6 +295,7 @@ text-decoration: none;
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
+    background-color: #FFFFFF;
 }
 
 .our-team {
@@ -311,18 +304,15 @@ text-decoration: none;
 }
 
 .list-team-icon {
-    background: #FFFFFF;
     height: 40px;
     width: 40px;
-    width: calc((100% - 72px) / 4);
-    padding-left: 0;
-    margin: 0;
 }
 
 .team-icon {
     display: flex;
     justify-content: center;
     gap: 24px;
+    margin-top: 8px;
 
 }
 
@@ -348,6 +338,7 @@ background-color: #404bbf;
 
 .icon {
     fill:#f4f4fd;
+    
 }
 
 .list-section {
@@ -419,6 +410,7 @@ transform: translateY(0);
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    
 }
 .portfolio {
 font-weight: 500;
@@ -432,6 +424,7 @@ margin-bottom: 8px;
 .our-products {
     width: calc((100% - 48px) / 3);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .our-products:hover {
@@ -457,7 +450,12 @@ margin-bottom: 8px;
     color: #434455;
 }
 
-
+.portfolio-text {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-right: 16px;
+    padding-left: 16px;
+}
 
 
 
@@ -512,17 +510,9 @@ padding: 100px 0;
 
 
 .list-footer-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     height: 40px;
     width: 40px;
-    background-color: #4D5AE5;
-    border: 1px solid #F4F4FD;
-    fill: #F4F4FD;
-    border-radius: 4px;
     margin-right: 24px;
-    
 }
 
 .text-social-media {

@@ -451,7 +451,7 @@ padding: 100px 0;
     max-width: 264px;
 }
 
-.main-container-footer {
+.container-last-page {
     display: flex;
     align-items: baseline;
     margin-right: 120px;

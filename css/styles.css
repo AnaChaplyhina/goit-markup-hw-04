@@ -435,6 +435,10 @@ margin-bottom: 8px;
     color: #434455;
 }
 
+
+
+
+
 .last-page {
 background: #2e2f42;
 padding: 100px 0;
@@ -445,10 +449,14 @@ padding: 100px 0;
     color:#F4F4FD;
     line-height: 1.5;
     max-width: 264px;
-    
-
 }
 
+.main-container-footer {
+    display: flex;
+    align-items: baseline;
+    margin-right: 120px;
+
+}
 .logo-footer {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -471,12 +479,6 @@ padding: 100px 0;
     text-transform: uppercase;
     color: #f4f4fd;
     text-decoration: none;
-}
-
-.container-footer {
-    display: flex;
-    align-items: baseline;
-    margin-right: 120px;
 }
 
 

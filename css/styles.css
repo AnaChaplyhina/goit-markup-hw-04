@@ -454,8 +454,10 @@ padding: 100px 0;
 .container-last-page {
     display: flex;
     align-items: baseline;
-    margin-right: 120px;
+}
 
+.main-container-footer {
+    margin-right: 120px;
 }
 .logo-footer {
     font-family: "Raleway", sans-serif;
